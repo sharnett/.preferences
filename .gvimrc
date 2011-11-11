@@ -8,3 +8,5 @@ set guioptions-=T
 #colors peaksea
 #set background=dark
 #set guioptions-=T 
+
+# try solarized, very nice
