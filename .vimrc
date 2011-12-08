@@ -13,3 +13,7 @@ set pastetoggle=<F1>
 
 set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+
+source $VIMRUNTIME/mswin.vim
+"source $VIMRUNTIME/macmap.vim
+":vi $VIMRUNTIME
