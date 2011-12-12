@@ -11,9 +11,9 @@ filetype plugin indent on
 nnoremap <F1> :set invpaste paste?<CR>
 set pastetoggle=<F1>
 
-set number
-nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+set rnu
+nnoremap <F2> :set nornu!<CR>:set foldcolumn=0<CR>
 
-source $VIMRUNTIME/mswin.vim
-"source $VIMRUNTIME/macmap.vim
+source $VIMRUNTIME/macmap.vim
+"source $VIMRUNTIME/mswin.vim
 ":vi $VIMRUNTIME
