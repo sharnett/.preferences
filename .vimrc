@@ -1,4 +1,3 @@
-
 syntax enable
 set background=dark
 colorscheme solarized
@@ -32,4 +31,6 @@ vnoremap <tab> %
 
 nnoremap j gj
 nnoremap k gk
+inoremap jj <Esc>
+inoremap jk <Esc>
 "imap <C-S-V> "+gP
