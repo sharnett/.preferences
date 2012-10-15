@@ -51,3 +51,11 @@ endif
 
 " turn the mouse on
 set mouse=a
+
+" max width stuff
+"set tw=80
+"set fo+=t
+augroup vimrc_autocmds
+    autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+    autocmd BufEnter * match OverLength /\%80v.*/
+augroup END 
