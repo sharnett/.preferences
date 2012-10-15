@@ -6,4 +6,4 @@ alias cp='cp -i'
 alias rockdude='ssh rockdude -t tmux a'
 alias ls='ls -lGh --color --hide=*pyc'
 set -o vi
-. ~/.git-completion.bash
+. ~/.preferences/git-completion.bash
