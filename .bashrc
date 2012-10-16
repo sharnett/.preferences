@@ -4,6 +4,15 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rockdude='ssh rockdude -t tmux a'
-alias ls='ls -lGh --color --hide=*pyc'
 set -o vi
 . ~/.preferences/git-completion.bash
+case "$OSTYPE" in
+  darwin*)  
+      alias ls='gls -lGh --color --hide=*pyc'
+      eval `gdircolors .preferences/dircolors.256dark`
+      ;;
+  linux*)
+      alias ls='ls -lGh --color --hide=*pyc'
+      eval `dircolors .preferences/dircolors.256dark`
+      ;;
+esac
