@@ -9,10 +9,10 @@ set -o vi
 case "$OSTYPE" in
   darwin*)  
       alias ls='gls -lGh --color --hide=*pyc'
-      eval `gdircolors .preferences/dircolors.256dark`
+      eval `gdircolors ~/.preferences/dircolors.256dark`
       ;;
   linux*)
       alias ls='ls -lGh --color --hide=*pyc'
-      eval `dircolors .preferences/dircolors.256dark`
+      eval `dircolors ~/.preferences/dircolors.256dark`
       ;;
 esac

@@ -49,9 +49,6 @@ if has('unix')
     imap <C-v> <C-r>+
 endif
 
-" turn the mouse on
-set mouse=a
-
 " max width stuff
 "set tw=80
 "set fo+=t
