@@ -1,4 +1,3 @@
-echo 'bash_profile'
 . ~/.profile
 
 # if running bash
