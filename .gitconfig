@@ -1,5 +1,5 @@
 [user]
-    name = sean harnett
+    name = Sean Harnett
     email = srharnett@gmail.com
 [color]
     ui = auto
@@ -15,3 +15,9 @@
 [color "status"]
     added = yellow
     changed = green
+    untracked = cyan
+[credential]
+    helper = osxkeychain
+[alias]
+    lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    yolo = !git add -A && git commit -a --message="#YOLO" && git push origin master
