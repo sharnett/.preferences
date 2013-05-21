@@ -30,9 +30,6 @@ set incsearch
 set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
-" tab to match paren/bracket/whatev
-nnoremap <tab> %
-vnoremap <tab> %
 
 " move up/down display lines instead of physical lines
 nnoremap j gj
@@ -50,6 +47,8 @@ if has('unix')
 endif
 
 " max width stuff
-"set tw=80
-"set fo+=t
 set colorcolumn=80
+
+" quickly flip through buffers
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
