@@ -26,6 +26,6 @@
     cm = commit
     st = status
 [push]
-    default = simple
+    default = matching
 [core]
     excludesfile = ~/.git_global_ignore
