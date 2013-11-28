@@ -52,3 +52,5 @@ set colorcolumn=80
 " quickly flip through buffers
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
+
+set scrolloff=2
